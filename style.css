@@ -1,0 +1,27 @@
+body {
+  font-family: monospace;
+  background: #fffaf2;
+  text-align: center;
+  padding: 1em;
+  color: #444;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+button {
+  margin: 0.3em;
+  padding: 0.3em 0.8em;
+}
+
+.ascii-card {
+  display: inline-block;
+  background: #fff;
+  border: 1px dashed #000;
+  padding: 10px;
+  white-space: pre;
+  font-family: monospace;
+  margin-top: 20px;
+}
