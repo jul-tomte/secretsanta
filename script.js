@@ -125,9 +125,9 @@ function showCard(giver, receiver) {
 │                              │
 │  Du ska ge en gåva till:     │
 │                              │
-│      🎁  ${receiver}  🎁       │
+│        ${receiver}           │
 │                              │
-│        God Jul! 🎅            │
+│        God Jul!              │
 └──────────────────────────────┘`;
   const div = document.createElement("div");
   div.className = "ascii-card";
