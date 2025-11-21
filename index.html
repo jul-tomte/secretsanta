@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Hemlig Tomte</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎅 Hemlig Tomte</h1>
+
+  <div id="config">
+    <h2>Deltagare</h2>
+    <input id="nameInput" placeholder="Namn">
+    <button id="addBtn">Lägg till</button>
+    <ul id="list"></ul>
+
+    <h2>Restriktioner</h2>
+    <p>(Välj två namn som inte får ge till varandra)</p>
+    <select id="r1"></select> ❌ <select id="r2"></select>
+    <button id="addRestrictBtn">Lägg till</button>
+    <ul id="restrictions"></ul>
+
+    <button id="drawBtn">Dra namn!</button>
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
