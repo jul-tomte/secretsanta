@@ -118,17 +118,17 @@ if (params.has("u") && params.has("r")) {
 
 function showCard(giver, receiver) {
   const card = `
-+--------------------------+
-| 🎄  Hemlig Tomte  🎄    |
-+--------------------------+
-|  Hej ${giver}!             |
-|                          |
-|  Du ska ge en gåva till: |
-|                          |
-|      🎁  ${receiver}  🎁     |
-|                          |
-|  God Jul! 🎅              |
-+--------------------------+`;
+┌──────────────────────────────┐
+│   🎄  Hemlig Tomte  🎄       │
+│──────────────────────────────│
+│  Hej ${giver}!               │
+│                              │
+│  Du ska ge en gåva till:     │
+│                              │
+│      🎁  ${receiver}  🎁       │
+│                              │
+│        God Jul! 🎅            │
+└──────────────────────────────┘`;
   const div = document.createElement("div");
   div.className = "ascii-card";
   div.textContent = card;
